@@ -9,7 +9,7 @@ Parameters:
 3. `Interval`
 
 ```js
-waitForElement('.test', 5000, 100).then((el: any) => {
+waitForElement('.test', 5000, 100).then((el) => {
 	console.log(el);
 });
 ```
