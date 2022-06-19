@@ -3,10 +3,10 @@ Async Wait For Element Function - JavaScript
 
 ## USE
 
-- parameters:
-1. `Selector`
-2. `Timeout`
-3. `Interval`
+Parameters:
+	1. `Selector`
+	2. `Timeout`
+	3. `Interval`
 
 ```js
 waitForElement('.test', 5000, 100).then((el: any) => {
